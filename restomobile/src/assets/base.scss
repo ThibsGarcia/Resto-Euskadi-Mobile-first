@@ -1,0 +1,159 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root {
+  --primary-1: #9e7f66;
+  --primary-2: #111111;
+  --secondary-1: #17192b;
+  --secondary-2: #242b37;
+  --secondary-3: #5c6779;
+  --white-1: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, ul, body {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, .SubTitle {
+  font-family: 'League Spartan', sans-serif;
+  
+}
+h2{
+  font-size: 5vw;
+  line-height: 80px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 3.2vw;
+  line-height: 48px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.3vw;
+  line-height: 24px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1.2vw;
+  line-height: 28px;
+  font-weight: 700px;
+}
+body {
+  font-style: 2vw;
+  line-height: 30px;
+  font-weight: 500;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2vw;
+  }
+}
+
+.btn-1 {
+  width: 245px;
+  height: 64px;
+  background-color: var(--primary-2);
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid white;
+  text-transform: uppercase;
+  
+  transition: background-color 0.2s;
+
+  &:hover {
+      background-color: white;
+      color: var(--primary-2);
+    border: 1px solid var(--primary-2);
+
+  }
+}
+
+.btn-2 {
+  width: 245px;
+  height: 64px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid white;
+  text-transform: uppercase;
+  
+  transition: background-color 0.2s;
+
+  &:hover {
+      background-color: white;
+      color: var(--primary-2);
+  }
+}
+
+.btn-3 {
+  height: 64px;
+  background-color: var(--primary-2);
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid white;
+  text-transform: uppercase;
+  
+  transition: background-color 0.2s;
+
+  &:hover {
+      background-color: white;
+      color: var(--primary-2);
+    border: 1px solid var(--primary-2);
+
+  }
+}
+.btn-4 {
+  width: 245px;
+  height: 64px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+  text-transform: uppercase;
+  
+  transition: background-color 0.2s;
+
+  &:hover {
+      background-color: white;
+      color: var(--primary-2);
+  }
+}
+.input-1 {
+  height: 43px;
+  border-bottom: 1px solid gray;
+}
+
+.label-1 {
+  width: 30%;
+  height: 43px;
+  border-bottom: 1px solid gray;
+}
+
+.label-2 {
+  width: 30%;
+  height: 43px;
+  border-bottom: 1px solid gray;
+}
+.label-3 {
+  width: 10%;
+  height: 43px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+
+}
